@@ -1,0 +1,33 @@
+{
+  "name": "rukky_auth",
+  "version": "1.0.0",
+  "description": "m- Models - schemas\r v- views - routes -> endpoints\r c- controllers - functions that runs the functionality of our routes (relatively our endpoints)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juadebfm/rukky_auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Juadebfm/rukky_auth/issues"
+  },
+  "homepage": "https://github.com/Juadebfm/rukky_auth#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.1",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1",
+    "nodemon": "^3.1.10"
+  }
+}

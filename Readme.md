@@ -22,3 +22,5 @@ Request -> routes -> middleware(validation) -> controller -> model -> database
         /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/,
         "Please enter a valid email address",
       ],
+
+    bash:-  head /dev/urandom | tr -dc 'A-Za-z0-9' | head -c 64
